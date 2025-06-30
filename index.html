@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gotahhuli - मेरा गाँव</title>
+    <meta name="description" content="गोठहुली गाँव की जानकारी, अपडेट, और गैलरी।">
+    <meta name="keywords" content="गोठहुली, गाँव, प्रधान, सचिव, लेखपाल, अपडेट">
+    <meta property="og:title" content="Gotahhuli - मेरा गाँव">
+    <meta property="og:description" content="गोठहुली गाँव की जानकारी, अपडेट, और गैलरी।">
+    <meta property="og:image" content="https://yourdomain.com/images/hero-bg.jpg">
+    <meta property="og:url" content="https://yourdomain.com/">
+    <meta name="twitter:card" content="summary_large_image">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-village fixed-top" aria-label="Main navigation">
+        <div class="container">
+            <a class="navbar-brand animate__animated animate__bounceIn" href="index.html">Gotahhuli</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">होम</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">गाँव के बारे में</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">गैलरी</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#updates">महत्वपूर्ण अपडेट</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#quick-links">त्वरित लिंक</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">संपर्क</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero-section">
+        <div class="container h-100">
+            <div class="hero-content text-center">
+                <h1 class="animate__animated animate__fadeInDown">गोठहुली में आपका स्वागत!</h1>
+                <p class="lead animate__animated animate__fadeInUp">प्रकृति और संस्कृति का अनोखा संगम</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-5 about-section">
+        <div class="container">
+            <h2 class="text-center mb-5 animate__animated animate__fadeIn">गाँव के बारे में</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card about-card animate__animated animate__fadeInUp">
+                        <div class="card-icon">
+                            <img src="images/icons/history.png" alt="इतिहास आइकन" class="icon-img">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">इतिहास</h5>
+                            <p class="card-text">गोठहुली की स्थापना 200 साल पहले हुई। इसका नाम प्राचीन गोठ से प्रेरित है।</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card about-card animate__animated animate__fadeInUp">
+                        <div class="card-icon">
+                            <img src="images/icons/facilities.png" alt="सुविधाएँ आइकन" class="icon-img">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">सुविधाएँ</h5>
+                            <p class="card-text">जनसंख्या: ~2,500<br>शिक्षा: 2 प्राथमिक, 1 माध्यमिक विद्यालय<br>स्वास्थ्य: 1 स्वास्थ्य केंद्र</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card about-card animate__animated animate__fadeInUp">
+                        <div class="card-icon">
+                            <img src="images/icons/festival.png" alt="त्योहार आइकन" class="icon-img">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">त्योहार</h5>
+                            <p class="card-text">होली, दीवाली, और वार्षिक मेला धूमधाम से मनाए जाते हैं।</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="details" class="py-5 details-section">
+        <div class="container">
+            <h2 class="text-center mb-5 animate__animated animate__fadeIn">हमारे महत्वपूर्ण प्रतिनिधि</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-12">
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="col-md-3 col-sm-6 representative-col">
+                            <div class="card representative-card animate__animated animate__slideInUp">
+                                <div class="image-container">
+                                    <img src="images/details/pradhan.jpg" class="card-img-top" alt="प्रधान" width="200" height="200" loading="lazy">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="post-highlight">वर्तमान प्रधान</h5>
+                                    <p><span class="name">रामेश्वर सिंह</span><br>संपर्क: +91 98765 43210</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 representative-col">
+                            <div class="card representative-card animate__animated animate__slideInUp">
+                                <div class="image-container">
+                                    <img src="images/details/sachiv.jpg" class="card-img-top" alt="सचिव" width="200" height="200" loading="lazy">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="post-highlight">सचिव</h5>
+                                    <p><span class="name">सुनीता देवी</span><br>संपर्क: +91 87654 32109</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 representative-col">
+                            <div class="card representative-card animate__animated animate__slideInUp">
+                                <div class="image-container">
+                                    <img src="images/details/lekhpal.jpg" class="card-img-top" alt="लेखपाल" width="200" height="200" loading="lazy">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="post-highlight">लेखपाल</h5>
+                                    <p><span class="name">अखिलेश यादव</span><br>संपर्क: +91 76543 21098</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 representative-col">
+                            <div class="card representative-card animate__animated animate__slideInUp">
+                                <div class="image-container">
+                                    <img src="images/details/assistant.jpg" class="card-img-top" alt="सहायक" width="200" height="200" loading="lazy">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="post-highlight">सहायक</h5>
+                                    <p><span class="name">राधेश्याम शर्मा</span><br>संपर्क: +91 65432 10987</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="py-5 gallery-section">
+        <div class="container">
+            <h2 class="text-center mb-5 animate__animated animate__fadeIn">गैलरी</h2>
+            <div class="swiper gallery-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card gallery-card animate__animated animate__zoomIn">
+                            <picture>
+                                <source src="images/gallery/village1.webp" type="image/webp">
+                                <img src="images/gallery/village1.jpg" class="card-img-top" alt="गाँव की तस्वीर" width="300" height="180" loading="lazy">
+                            </picture>
+                            <div class="card-body">
+                                <p class="card-text">प्राकृतिक सुंदरता</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card gallery-card animate__animated animate__zoomIn">
+                            <picture>
+                                <source src="images/gallery/village2.webp" type="image/webp">
+                                <img src="images/gallery/village2.jpg" class="card-img-top" alt="खेत की तस्वीर" width="300" height="180" loading="lazy">
+                            </picture>
+                            <div class="card-body">
+                                <p class="card-text">हरे-भरे खेत</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card gallery-card animate__animated animate__zoomIn">
+                            <picture>
+                                <source src="images/gallery/village3.webp" type="image/webp">
+                                <img src="images/gallery/village3.jpg" class="card-img-top" alt="गाँव का मेला" width="300" height="180" loading="lazy">
+                            </picture>
+                            <div class="card-body">
+                                <p class="card-text">वार्षिक मेला</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card gallery-card animate__animated animate__zoomIn">
+                            <picture>
+                                <source src="images/gallery/village1.webp" type="image/webp">
+                                <img src="images/gallery/village1.jpg" class="card-img-top" alt="गाँव की तस्वीर" width="300" height="180" loading="lazy">
+                            </picture>
+                            <div class="card-body">
+                                <p class="card-text">प्राकृतिक सुंदरता</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="updates" class="py-5 updates-section">
+        <div class="container">
+            <h2 class="text-center mb-5 animate__animated animate__fadeIn">महत्वपूर्ण अपडेट</h2>
+            <div class="swiper updates-swiper">
+                <div class="swiper-wrapper" id="updates-list">
+                    <div class="swiper-slide">
+                        <div class="card update-card animate__animated animate__fadeInUp">
+                            <picture>
+                                <source src="images/updates/update1.webp" type="image/webp">
+                                <img src="images/updates/update1.jpg" class="update-media" alt="नया स्वास्थ्य शिविर" width="300" height="140" loading="lazy">
+                            </picture>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">नया स्वास्थ्य शिविर</h5>
+                                <p class="update-preview">15 जुलाई को स्वास्थ्य शिविर आयोजित किया जाएगा।</p>
+                                <button class="btn btn-primary btn-sm read-more" data-id="0">और पढ़ें</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card update-card animate__animated animate__fadeInUp">
+                            <picture>
+                                <source src="images/updates/update2.webp" type="image/webp">
+                                <img src="images/updates/update2.jpg" class="update-media" alt="सड़क निर्माण प्रगति" width="300" height="140" loading="lazy">
+                            </picture>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">सड़क निर्माण प्रगति</h5>
+                                <p class="update-preview">गाँव की मुख्य सड़क का निर्माण जारी है।</p>
+                                <button class="btn btn-primary btn-sm read-more" data-id="1">और पढ़ें</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card update-card animate__animated animate__fadeInUp">
+                            <picture>
+                                <source src="images/updates/update1.webp" type="image/webp">
+                                <img src="images/updates/update1.jpg" class="update-media" alt="पानी आपूर्ति सुधार" width="300" height="140" loading="lazy">
+                            </picture>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">पानी आपूर्ति सुधार</h5>
+                                <p class="update-preview">गाँव में पानी की नई पाइपलाइन बिछाई जा रही है।</p>
+                                <button class="btn btn-primary btn-sm read-more" data-id="2">और पढ़ें</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card update-card animate__animated animate__fadeInUp">
+                            <picture>
+                                <source src="images/updates/update2.webp" type="image/webp">
+                                <img src="images/updates/update2.jpg" class="update-media" alt="नया विद्यालय भवन" width="300" height="140" loading="lazy">
+                            </picture>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">नया विद्यालय भवन</h5>
+                                <p class="update-preview">गाँव में नया स्कूल भवन बनाया जा रहा है।</p>
+                                <button class="btn btn-primary btn-sm read-more" data-id="3">और पढ़ें</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card update-card animate__animated animate__fadeInUp">
+                            <picture>
+                                <source src="images/updates/update1.webp" type="image/webp">
+                                <img src="images/updates/update1.jpg" class="update-media" alt="साफ-सफाई अभियान" width="300" height="140" loading="lazy">
+                            </picture>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">साफ-सफाई अभियान</h5>
+                                <p class="update-preview">गाँव में स्वच्छता अभियान शुरू हुआ।</p>
+                                <button class="btn btn-primary btn-sm read-more" data-id="4">और पढ़ें</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Updates -->
+    <div class="modal fade" id="updateModal" tabindex="-1" aria-labelledby="updateModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title">अपडेट</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="modal-media" class="modal-media-container"></div>
+                    <p id="modal-content" class="modal-text"></p>
+                    <p class="modal-date"><small class="text-muted" id="modal-date"></small></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary btn-sm" data-bs-dismiss="modal">बंद करें</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="quick-links" class="py-5 quick-links-section">
+        <div class="container">
+            <h2 class="text-center mb-5 animate__animated animate__fadeIn">त्वरित लिंक</h2>
+            <div class="row g-4">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card quick-link-card animate__animated animate__fadeInUp">
+                        <img src="images/icons/ration-card.png" class="quick-link-img" alt="राशन कार्ड" width="40" height="40" loading="lazy">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">राशन कार्ड</h5>
+                            <p class="card-text">आवेदन करें या स्थिति जांचें।</p>
+                            <a href="https://fcs.up.gov.in/" target="_blank" class="btn btn-primary btn-sm">जाएँ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card quick-link-card animate__animated animate__fadeInUp">
+                        <img src="images/icons/voter-id.png" class="quick-link-img" alt="मतदाता पहचान पत्र" width="40" height="40" loading="lazy">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">मतदाता पहचान पत्र</h5>
+                            <p class="card-text">बनवाएँ या डाउनलोड करें।</p>
+                            <a href="https://voters.eci.gov.in/" target="_blank" class="btn btn-primary btn-sm">जाएँ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card quick-link-card animate__animated animate__fadeInUp">
+                        <img src="images/icons/aadhaar.png" class="quick-link-img" alt="आधार कार्ड" width="40" height="40" loading="lazy">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">आधार कार्ड</h5>
+                            <p class="card-text">डाउनलोड करें या अपडेट करें।</p>
+                            <a href="https://uidai.gov.in/" target="_blank" class="btn btn-primary btn-sm">जाएँ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-4 contact-section">
+        <div class="container">
+            <h2 class="text-center mb-4 animate__animated animate__fadeIn">संपर्क करें</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <form id="contact-form" class="contact-form animate__animated animate__fadeInUp" action="https://script.google.com/macros/s/AKfycbwuqLfZcz0mr8VhpIVkU2Zes45gQZRHPjiqhV1C-u61jZrOlaT1TACWOS6qxFDcTRhT/exec" method="POST">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">नाम</label>
+                            <input type="text" class="form-control" id="name" name="name" required aria-describedby="nameHelp">
+                            <div id="nameHelp" class="form-text text-muted">कृपया अपना पूरा नाम दर्ज करें।</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mobile" class="form-label">मोबाइल नंबर</label>
+                            <input type="tel" class="form-control" id="mobile" name="mobile" pattern="[0-9]{10}" required aria-describedby="mobileHelp">
+                            <div id="mobileHelp" class="form-text text-muted">कृपया 10 अंकों का मोबाइल नंबर दर्ज करें।</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">संदेश</label>
+                            <textarea class="form-control" id="message" name="message" rows="4" required aria-describedby="messageHelp"></textarea>
+                            <div id="messageHelp" class="form-text text-muted">अपना संदेश यहाँ लिखें।</div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-sm">संदेश भेजें</button>
+                        <div id="form-message" class="mt-3"></div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-info animate__animated animate__fadeInUp">
+                        <p><strong>ईमेल:</strong> <a href="mailto:contact@gotahhuli.com" class="text-decoration-none text-dark">contact@gotahhuli.com</a></p>
+                        <p><strong>फोन:</strong> <a href="tel:+919123456789" class="text-decoration-none text-dark">+91 91234 56789</a></p>
+                        <p><strong>पता:</strong> गोठहुली, सुल्तानपुर, उत्तर प्रदेश</p>
+                        <div class="map-placeholder">
+                            <picture>
+                                <source src="images/map-placeholder.webp" type="image/webp">
+                                <img src="images/map-placeholder.jpg" alt="Map of Gotahhuli" class="img-fluid" width="300" height="150" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-village text-white py-4">
+        <div class="container text-center">
+            <p style="color: #ffffff !important; font-weight: bold;">© 2025 Gotahhuli.com। सर्वाधिकार सुरक्षित।</p>
+            <div class="social-icons">
+                <a href="https://facebook.com/gotahhuli" aria-label="Facebook"><img src="images/icons/facebook.png" alt="Facebook Icon" width="26" height="26" loading="lazy"></a>
+                <a href="https://twitter.com/gotahhuli" aria-label="Twitter"><img src="images/icons/twitter.png" alt="Twitter Icon" width="26" height="26" loading="lazy"></a>
+                <a href="https://instagram.com/gotahhuli" aria-label="Instagram"><img src="images/icons/instagram.png" alt="Instagram Icon" width="26" height="26" loading="lazy"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

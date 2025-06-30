@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #e6f0fa;
+    background: #fff8e1; /* Cream Beige background */
     line-height: 1.6;
     scroll-behavior: smooth;
 }
@@ -19,7 +19,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #4682b4;
+    background: #2e7d32; /* Forest Green */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +31,7 @@ body {
     width: 50px;
     height: 50px;
     border: 5px solid #fff;
-    border-top: 5px solid #87ceeb;
+    border-top: 5px solid #ffca28; /* Golden Yellow */
     border-radius: 50%;
     animation: spin 1s linear infinite;
 }
@@ -44,16 +44,16 @@ body {
 /* ========== Typography ========== */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Noto Serif Devanagari', serif;
-    color: #4682b4;
+    color: #2e7d32; /* Forest Green */
 }
 
 h1 { font-size: clamp(1.6rem, 4.5vw, 2.8rem); font-weight: 700; }
 h2 { font-size: clamp(1.4rem, 2.8vw, 1.8rem); font-weight: 600; }
-p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5a9bd4; }
+p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5d4037; /* Dark Brown */ }
 
 /* ========== Navbar Styles ========== */
 .bg-village {
-    background: linear-gradient(135deg, #4682b4, #87ceeb);
+    background: linear-gradient(135deg, #2e7d32, #4caf50); /* Green gradient */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -76,7 +76,7 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5a9bd4; }
 }
 
 .nav-link:hover {
-    color: #b0e0e6 !important;
+    color: #ffca28 !important; /* Golden Yellow */
     transform: translateY(-1px);
 }
 
@@ -85,7 +85,7 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5a9bd4; }
     position: absolute;
     width: 0;
     height: 2px;
-    background: #b0e0e6;
+    background: #ffca28; /* Golden Yellow */
     bottom: 0;
     left: 0;
     transition: width 0.3s ease;
@@ -97,7 +97,7 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5a9bd4; }
 
 /* ========== Hero Section Styles ========== */
 .hero-section {
-    background: linear-gradient(135deg, #87ceeb, #b0e0e6);
+    background: linear-gradient(135deg, #4caf50, #fff8e1); /* Green to Cream Beige */
     min-height: 50vh;
     display: flex;
     align-items: center;
@@ -110,30 +110,30 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5a9bd4; }
 
 .hero-content h1 {
     font-size: clamp(2rem, 5vw, 3rem);
-    color: #4682b4;
+    color: #2e7d32; /* Forest Green */
     margin-bottom: 0.8rem;
     font-weight: 700;
 }
 
 .hero-content .lead {
     font-size: clamp(1rem, 2vw, 1.5rem);
-    color: #5a9bd4;
+    color: #5d4037; /* Dark Brown */
     margin-bottom: 0;
 }
 
 /* ========== Section Backgrounds ========== */
-.about-section { background: linear-gradient(135deg, #e0f2ff, #b3d9ff); }
-.gallery-section { background: linear-gradient(135deg, #e6f3ff, #c0e0ff); }
-.details-section { background: linear-gradient(135deg, #e8f4ff, #b8d6ff); }
-.updates-section { background: linear-gradient(135deg, #e0f2ff, #b3d9ff); }
-.quick-links-section { background: linear-gradient(135deg, #e8f4ff, #b8d6ff); }
-.contact-section { background: linear-gradient(135deg, #e2f2ff, #add8e6); }
+.about-section { background: linear-gradient(135deg, #fff8e1, #f7e9ca); } /* Cream Beige */
+.gallery-section { background: linear-gradient(135deg, #fff8e1, #f7e9ca); }
+.details-section { background: linear-gradient(135deg, #fff8e1, #f7e9ca); }
+.updates-section { background: linear-gradient(135deg, #fff8e1, #f7e9ca); }
+.quick-links-section { background: linear-gradient(135deg, #fff8e1, #f7e9ca); }
+.contact-section { background: linear-gradient(135deg, #fff8e1, #f7e9ca); }
 
 /* ========== Card Styles ========== */
 .card {
     border: none;
     border-radius: 10px;
-    background: #fff;
+    background: #fefefe; /* Soft White */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -144,7 +144,7 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5a9bd4; }
 }
 
 .about-card {
-    background: #fff;
+    background: #fefefe;
     padding: 1rem;
     position: relative;
     overflow: hidden;
@@ -160,7 +160,7 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5a9bd4; }
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background: #87ceeb;
+    background: #ffca28; /* Golden Yellow */
     padding: 6px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
 }
@@ -171,11 +171,12 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5a9bd4; }
 
 .about-card .card-text {
     word-wrap: break-word;
+    color: #5d4037; /* Dark Brown */
 }
 
 .representative-card {
     margin: 0 auto;
-    background: #fff;
+    background: #fefefe;
     border-radius: 10px;
     height: 100%;
     max-width: 280px;
@@ -187,7 +188,7 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5a9bd4; }
     border-radius: 0;
     overflow: hidden;
     margin: 1rem auto;
-    border: 3px solid #87ceeb;
+    border: 3px solid #ffca28; /* Golden Yellow */
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
@@ -206,7 +207,7 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5a9bd4; }
 }
 
 .post-highlight {
-    background: #4682b4;
+    background: #2e7d32; /* Forest Green */
     color: #fff;
     padding: 0.3rem 0.6rem;
     border-radius: 10px;
@@ -216,19 +217,20 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5a9bd4; }
 
 .representative-card .name {
     font-weight: 600;
-    color: #4682b4;
+    color: #2e7d32; /* Forest Green */
     font-size: 0.95rem;
 }
 
 .representative-card p {
     font-size: 0.85rem;
     margin: 0;
+    color: #5d4037; /* Dark Brown */
 }
 
 .update-card {
     max-width: 300px;
     margin: 0 auto;
-    background: #fff;
+    background: #fefefe;
     border-radius: 10px;
     overflow: hidden;
     width: 100%;
@@ -243,8 +245,8 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5a9bd4; }
 }
 
 .update-card .card-title {
-    background: #87ceeb;
-    color: #4682b4;
+    background: #ffca28; /* Golden Yellow */
+    color: #2e7d32; /* Forest Green */
     padding: 0.3rem 0.6rem;
     border-radius: 6px;
     font-size: 0.9rem;
@@ -258,6 +260,7 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5a9bd4; }
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 0.85rem;
+    color: #5d4037; /* Dark Brown */
 }
 
 .quick-link-img {
@@ -277,11 +280,11 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5a9bd4; }
 /* ========== Modal Styles ========== */
 .modal-content {
     border-radius: 10px;
-    background: #fff;
+    background: #fefefe; /* Soft White */
 }
 
 .modal-header {
-    background: linear-gradient(135deg, #4682b4, #87ceeb);
+    background: linear-gradient(135deg, #2e7d32, #4caf50); /* Green gradient */
     color: #fff;
 }
 
@@ -311,7 +314,7 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5a9bd4; }
 
 .modal-text {
     font-size: 0.9rem;
-    color: #5a9bd4;
+    color: #5d4037; /* Dark Brown */
 }
 
 .modal-date {
@@ -330,18 +333,18 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5a9bd4; }
 }
 
 .swiper-pagination-bullet-active {
-    background: #4682b4;
+    background: #2e7d32; /* Forest Green */
 }
 
 .swiper-button-next, .swiper-button-prev {
-    color: #4682b4;
+    color: #2e7d32; /* Forest Green */
     width: 30px;
     height: 30px;
 }
 
 /* ========== Button Styles ========== */
 .btn-primary {
-    background: linear-gradient(135deg, #4682b4, #87ceeb);
+    background: linear-gradient(135deg, #2e7d32, #4caf50); /* Green gradient */
     border: none;
     padding: 0.4rem 0.8rem;
     border-radius: 20px;
@@ -350,14 +353,14 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5a9bd4; }
 }
 
 .btn-primary:hover {
-    background: linear-gradient(135deg, #b0e0e6, #add8e6);
+    background: linear-gradient(135deg, #f57c00, #ffca28); /* Orange to Yellow */
     transform: translateY(-2px);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* ========== Contact Form Styles ========== */
 .contact-form, .contact-info {
-    background: #fff;
+    background: #fefefe; /* Soft White */
     padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -365,23 +368,23 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5a9bd4; }
 
 .contact-form .form-control {
     border-radius: 6px;
-    border: 1px solid #b3d9ff;
+    border: 1px solid #f7e9ca; /* Light Beige */
     font-size: 0.9rem;
-    background: #f0f8ff;
+    background: #fff8e1; /* Cream Beige */
 }
 
 .contact-form .form-label {
     font-size: 0.9rem;
-    color: #4682b4;
+    color: #2e7d32; /* Forest Green */
 }
 
 .contact-form .form-text {
     font-size: 0.75rem;
-    color: #5a9bd4;
+    color: #5d4037; /* Dark Brown */
 }
 
 .contact-form .btn-primary {
-    background: linear-gradient(135deg, #4682b4, #87ceeb);
+    background: linear-gradient(135deg, #2e7d32, #4caf50); /* Green gradient */
     width: 100%;
     margin-top: 1rem;
 }
@@ -395,16 +398,16 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5a9bd4; }
 
 .contact-info p {
     margin-bottom: 0.5rem;
-    color: #5a9bd4;
+    color: #5d4037; /* Dark Brown */
 }
 
 .contact-info a {
-    color: #4682b4;
+    color: #2e7d32; /* Forest Green */
     transition: color 0.3s ease;
 }
 
 .contact-info a:hover {
-    color: #87ceeb;
+    color: #f57c00; /* Saffron Orange */
 }
 
 .map-placeholder img {
@@ -416,7 +419,7 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5a9bd4; }
 
 /* ========== Footer Styles ========== */
 footer {
-    background: linear-gradient(135deg, #4682b4, #87ceeb);
+    background: linear-gradient(135deg, #2e7d32, #4caf50); /* Green gradient */
     box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
 }
 

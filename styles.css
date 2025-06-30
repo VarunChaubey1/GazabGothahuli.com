@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #fff8e1; /* Cream Beige background */
+    background: #e6f0fa;
     line-height: 1.6;
     scroll-behavior: smooth;
 }
@@ -19,7 +19,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #2e7d32; /* Forest Green */
+    background: #4682b4;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +31,7 @@ body {
     width: 50px;
     height: 50px;
     border: 5px solid #fff;
-    border-top: 5px solid #ffca28; /* Golden Yellow */
+    border-top: 5px solid #87ceeb;
     border-radius: 50%;
     animation: spin 1s linear infinite;
 }
@@ -44,16 +44,16 @@ body {
 /* ========== Typography ========== */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Noto Serif Devanagari', serif;
-    color: #2e7d32; /* Forest Green */
+    color: #4682b4;
 }
 
 h1 { font-size: clamp(1.6rem, 4.5vw, 2.8rem); font-weight: 700; }
 h2 { font-size: clamp(1.4rem, 2.8vw, 1.8rem); font-weight: 600; }
-p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5d4037; /* Dark Brown */ }
+p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5a9bd4; }
 
 /* ========== Navbar Styles ========== */
 .bg-village {
-    background: linear-gradient(135deg, #2e7d32, #4caf50); /* Green gradient */
+    background: linear-gradient(135deg, #4682b4, #87ceeb);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -76,7 +76,7 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5d4037; /* Dark Brown */ 
 }
 
 .nav-link:hover {
-    color: #ffca28 !important; /* Golden Yellow */
+    color: #b0e0e6 !important;
     transform: translateY(-1px);
 }
 
@@ -85,7 +85,7 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5d4037; /* Dark Brown */ 
     position: absolute;
     width: 0;
     height: 2px;
-    background: #ffca28; /* Golden Yellow */
+    background: #b0e0e6;
     bottom: 0;
     left: 0;
     transition: width 0.3s ease;
@@ -97,7 +97,7 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5d4037; /* Dark Brown */ 
 
 /* ========== Hero Section Styles ========== */
 .hero-section {
-    background: linear-gradient(135deg, #4caf50, #fff8e1); /* Green to Cream Beige */
+    background: linear-gradient(135deg, #87ceeb, #b0e0e6);
     min-height: 50vh;
     display: flex;
     align-items: center;
@@ -110,30 +110,30 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5d4037; /* Dark Brown */ 
 
 .hero-content h1 {
     font-size: clamp(2rem, 5vw, 3rem);
-    color: #2e7d32; /* Forest Green */
+    color: #4682b4;
     margin-bottom: 0.8rem;
     font-weight: 700;
 }
 
 .hero-content .lead {
     font-size: clamp(1rem, 2vw, 1.5rem);
-    color: #5d4037; /* Dark Brown */
+    color: #5a9bd4;
     margin-bottom: 0;
 }
 
 /* ========== Section Backgrounds ========== */
-.about-section { background: linear-gradient(135deg, #fff8e1, #f7e9ca); } /* Cream Beige */
-.gallery-section { background: linear-gradient(135deg, #fff8e1, #f7e9ca); }
-.details-section { background: linear-gradient(135deg, #fff8e1, #f7e9ca); }
-.updates-section { background: linear-gradient(135deg, #fff8e1, #f7e9ca); }
-.quick-links-section { background: linear-gradient(135deg, #fff8e1, #f7e9ca); }
-.contact-section { background: linear-gradient(135deg, #fff8e1, #f7e9ca); }
+.about-section { background: linear-gradient(135deg, #e0f2ff, #b3d9ff); }
+.gallery-section { background: linear-gradient(135deg, #e6f3ff, #c0e0ff); }
+.details-section { background: linear-gradient(135deg, #e8f4ff, #b8d6ff); }
+.updates-section { background: linear-gradient(135deg, #e0f2ff, #b3d9ff); }
+.quick-links-section { background: linear-gradient(135deg, #e8f4ff, #b8d6ff); }
+.contact-section { background: linear-gradient(135deg, #e2f2ff, #add8e6); }
 
 /* ========== Card Styles ========== */
 .card {
     border: none;
     border-radius: 10px;
-    background: #fefefe; /* Soft White */
+    background: #fff;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -144,7 +144,7 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5d4037; /* Dark Brown */ 
 }
 
 .about-card {
-    background: #fefefe;
+    background: #fff;
     padding: 1rem;
     position: relative;
     overflow: hidden;
@@ -160,7 +160,7 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5d4037; /* Dark Brown */ 
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background: #ffca28; /* Golden Yellow */
+    background: #87ceeb;
     padding: 6px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
 }
@@ -171,12 +171,11 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5d4037; /* Dark Brown */ 
 
 .about-card .card-text {
     word-wrap: break-word;
-    color: #5d4037; /* Dark Brown */
 }
 
 .representative-card {
     margin: 0 auto;
-    background: #fefefe;
+    background: #fff;
     border-radius: 10px;
     height: 100%;
     max-width: 280px;
@@ -188,7 +187,7 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5d4037; /* Dark Brown */ 
     border-radius: 0;
     overflow: hidden;
     margin: 1rem auto;
-    border: 3px solid #ffca28; /* Golden Yellow */
+    border: 3px solid #87ceeb;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
@@ -207,7 +206,7 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5d4037; /* Dark Brown */ 
 }
 
 .post-highlight {
-    background: #2e7d32; /* Forest Green */
+    background: #4682b4;
     color: #fff;
     padding: 0.3rem 0.6rem;
     border-radius: 10px;
@@ -217,20 +216,19 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5d4037; /* Dark Brown */ 
 
 .representative-card .name {
     font-weight: 600;
-    color: #2e7d32; /* Forest Green */
+    color: #4682b4;
     font-size: 0.95rem;
 }
 
 .representative-card p {
     font-size: 0.85rem;
     margin: 0;
-    color: #5d4037; /* Dark Brown */
 }
 
 .update-card {
     max-width: 300px;
     margin: 0 auto;
-    background: #fefefe;
+    background: #fff;
     border-radius: 10px;
     overflow: hidden;
     width: 100%;
@@ -245,8 +243,8 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5d4037; /* Dark Brown */ 
 }
 
 .update-card .card-title {
-    background: #ffca28; /* Golden Yellow */
-    color: #2e7d32; /* Forest Green */
+    background: #87ceeb;
+    color: #4682b4;
     padding: 0.3rem 0.6rem;
     border-radius: 6px;
     font-size: 0.9rem;
@@ -260,7 +258,6 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5d4037; /* Dark Brown */ 
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 0.85rem;
-    color: #5d4037; /* Dark Brown */
 }
 
 .quick-link-img {
@@ -280,11 +277,11 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5d4037; /* Dark Brown */ 
 /* ========== Modal Styles ========== */
 .modal-content {
     border-radius: 10px;
-    background: #fefefe; /* Soft White */
+    background: #fff;
 }
 
 .modal-header {
-    background: linear-gradient(135deg, #2e7d32, #4caf50); /* Green gradient */
+    background: linear-gradient(135deg, #4682b4, #87ceeb);
     color: #fff;
 }
 
@@ -314,7 +311,7 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5d4037; /* Dark Brown */ 
 
 .modal-text {
     font-size: 0.9rem;
-    color: #5d4037; /* Dark Brown */
+    color: #5a9bd4;
 }
 
 .modal-date {
@@ -333,18 +330,18 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5d4037; /* Dark Brown */ 
 }
 
 .swiper-pagination-bullet-active {
-    background: #2e7d32; /* Forest Green */
+    background: #4682b4;
 }
 
 .swiper-button-next, .swiper-button-prev {
-    color: #2e7d32; /* Forest Green */
+    color: #4682b4;
     width: 30px;
     height: 30px;
 }
 
 /* ========== Button Styles ========== */
 .btn-primary {
-    background: linear-gradient(135deg, #2e7d32, #4caf50); /* Green gradient */
+    background: linear-gradient(135deg, #4682b4, #87ceeb);
     border: none;
     padding: 0.4rem 0.8rem;
     border-radius: 20px;
@@ -353,14 +350,14 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5d4037; /* Dark Brown */ 
 }
 
 .btn-primary:hover {
-    background: linear-gradient(135deg, #f57c00, #ffca28); /* Orange to Yellow */
+    background: linear-gradient(135deg, #b0e0e6, #add8e6);
     transform: translateY(-2px);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* ========== Contact Form Styles ========== */
 .contact-form, .contact-info {
-    background: #fefefe; /* Soft White */
+    background: #fff;
     padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -368,23 +365,23 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5d4037; /* Dark Brown */ 
 
 .contact-form .form-control {
     border-radius: 6px;
-    border: 1px solid #f7e9ca; /* Light Beige */
+    border: 1px solid #b3d9ff;
     font-size: 0.9rem;
-    background: #fff8e1; /* Cream Beige */
+    background: #f0f8ff;
 }
 
 .contact-form .form-label {
     font-size: 0.9rem;
-    color: #2e7d32; /* Forest Green */
+    color: #4682b4;
 }
 
 .contact-form .form-text {
     font-size: 0.75rem;
-    color: #5d4037; /* Dark Brown */
+    color: #5a9bd4;
 }
 
 .contact-form .btn-primary {
-    background: linear-gradient(135deg, #2e7d32, #4caf50); /* Green gradient */
+    background: linear-gradient(135deg, #4682b4, #87ceeb);
     width: 100%;
     margin-top: 1rem;
 }
@@ -398,16 +395,16 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5d4037; /* Dark Brown */ 
 
 .contact-info p {
     margin-bottom: 0.5rem;
-    color: #5d4037; /* Dark Brown */
+    color: #5a9bd4;
 }
 
 .contact-info a {
-    color: #2e7d32; /* Forest Green */
+    color: #4682b4;
     transition: color 0.3s ease;
 }
 
 .contact-info a:hover {
-    color: #f57c00; /* Saffron Orange */
+    color: #87ceeb;
 }
 
 .map-placeholder img {
@@ -419,7 +416,7 @@ p { font-size: clamp(0.85rem, 1.6vw, 0.95rem); color: #5d4037; /* Dark Brown */ 
 
 /* ========== Footer Styles ========== */
 footer {
-    background: linear-gradient(135deg, #2e7d32, #4caf50); /* Green gradient */
+    background: linear-gradient(135deg, #4682b4, #87ceeb);
     box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
 }
 
